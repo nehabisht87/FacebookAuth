@@ -5,6 +5,8 @@ import { LoginButton, AccessToken, AuthenticationToken, LoginManager, GraphReque
 
 const App = () => {
   const [fbUserInfo, setFbUserInfo] = useState({});
+    // Settings.setAppID('551907212786996');
+
 
   const facebookLogin = resCallback => {
     LoginManager.logOut(); // if user already login then logout
